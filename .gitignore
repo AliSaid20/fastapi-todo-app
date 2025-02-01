@@ -1,0 +1,19 @@
+# Ignore Python virtual environment
+Backend/venv/
+Backend/__pycache__/
+
+# Ignore node_modules for frontend
+Frontend/node_modules/
+
+# Ignore build artifacts (if any)
+Frontend/build/
+
+# Ignore public directory in frontend if not needed in repo
+Frontend/public/
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+
+# Ignore any sensitive files
+*.env
